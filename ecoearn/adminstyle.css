@@ -1,0 +1,212 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+#sidebar {
+   
+    transition: all .25s ease-in-out;
+    background-color:#043d3d ;
+
+}
+
+
+
+.toggle-btn {
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    padding: 1rem 1.5rem;
+}
+
+.toggle-btn i {
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+.sidebar-logo {
+    margin: auto 0;
+}
+
+.sidebar-logo a {
+    color:white;
+    font-size: 1.15rem;
+    font-weight: 600;
+    font-family: 'Abril Fatface','Arial Narrow Bold', sans-serif;
+}
+
+.hello a {
+    color: #FFF;
+    font-size: 1.15rem;
+    font-weight: 600;
+    font-family: 'Abril Fatface','Arial Narrow Bold', sans-serif;
+}
+
+
+
+#sidebar.expand .sidebar-logo,
+#sidebar.expand a.sidebar-link span {
+    animation: fadeIn .25s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.sidebar-nav {
+    padding: 2rem 0;
+    flex: 1 1 auto;
+}
+
+a.sidebar-link {
+    padding: .625rem 1.625rem;
+    color: #FFF;
+    display: block;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-link i,
+.dropdown-item i {
+    font-size: 1.1rem;
+    margin-right: .75rem;
+}
+
+a.sidebar-link:hover {
+    background-color: rgba(255, 255, 255, .075);
+    border-left: 5px solid #ffa321;
+}
+
+.sidebar-item {
+    position: relative;
+}
+
+
+.navbar {
+ 
+    /* box-shadow: 0 0 2rem 0 rgba(33, 37, 41, .1); */
+    height:50px;
+    
+}
+
+
+
+.avatar {
+    height: 40px;
+    width: 40px;
+}
+
+
+
+@media (min-width: 768px) {}
+
+.recycle-box {
+    max-width: 210px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding:20px;
+    text-align: center;
+  }
+
+  .noround{
+    margin-top:10px;
+    border-radius:0px;
+    box-shadow: none;
+}
+
+.icons a{
+    text-decoration: none;
+    color:black;
+}
+
+.welcome{
+    font-size: 16px;
+}
+
+.cardstats{
+
+    border-left:2px solid #ffa321;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+.card-stat{
+    font-size:25px;
+}
+
+.card-body-custom{
+    font-size:14px;
+}
+
+.reportsection{
+    font-family: 'Abril Fatface',"sans-serif";
+}
+
+.btnreport{
+    font-size:15px;
+    color: black;
+    background-color: #ffa321;
+    border: none;
+    border-radius:2px;
+    
+}
+.reportcard-header{
+    background-color:#2a2929;
+    color:white;
+    padding:5px 5px;
+    height:30px;
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+}
+
+.reportcard-body{
+    padding:5px 5px;
+    font-size:15px;
+
+}
+
+
+.acardstats{
+
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 4px;
+}
+
+
+.header{
+    background-color: black;
+}
+
+
+.updateform label{
+    font-weight: 700;
+}

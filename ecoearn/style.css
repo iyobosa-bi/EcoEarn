@@ -1,0 +1,505 @@
+/** External Styling Here**/
+
+body,button,a{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-family: "Open Sans",sans-serif;
+
+}
+
+.nav-body{
+    background-color: #fff;
+    /* min-height:70px; */
+    /* font-size: 12px; */
+    position:sticky;
+    top:0px;
+    z-index:1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logoname{
+    font-family: 'Abril Fatface',sans-serif;
+}
+
+
+.navlinks ul li a {
+    font-family: "Open Sans",sans-serif;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#4d4d4d;
+
+}
+
+.nav-body-store{
+    /* background: #22382e; */
+    /* min-height:70px; */
+    /* font-size: 12px; */
+
+    opacity:0.96;
+    z-index:-1;
+    background-color: rgba(34, 56, 46, 1);
+    
+}
+
+.insert{
+    background-image:url('images/heroimg.png');
+    background-position:center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    border:0px solid black;
+}
+
+.navmove{
+    margin-left:100px;
+}
+
+.nav-btn{
+    background-color: #FABC2A;
+    border-radius:2px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 0.9em;
+}
+
+.nav-btn2{
+    color:white;
+    border:1px solid #FABC2A;
+    border-radius:2px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 0.9em;
+}
+
+.hero-header{
+    font-size: 55px;
+    font-family: 'Abril Fatface',sans-serif;
+    
+}
+
+.hero-text{
+    font-size: 16px;
+    max-width: fit-content;
+
+}
+
+.nav-btn-header{
+    background-color: #FABC2A;
+    border-radius:2px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+hr{
+    color:yellow;
+    width:20%;
+}
+
+.nav-btn3{
+    border-radius: 20px;
+    color:white;
+    border:1px solid #FABC2A;
+    font-size: 12px;
+}
+
+
+.works {
+    background-color: #eee; 
+    min-height:450px;
+   
+}
+
+
+
+.workhead {
+    background-color: #e0ecf8; 
+    width:30%;
+    margin-top:60px;
+    display: block;
+}
+
+.section-title {
+    color: #22382e; 
+    text-transform: uppercase;
+    font-size:14px ;
+    font-weight: 600;
+   margin-left:50px;
+   font-family:'Abril Fatface',sans-serif;
+   letter-spacing:2px;
+}
+
+
+.main-title {
+    font-size: 1.6em;
+    font-family:"Open Sans",sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid #c2d3df;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.step{
+    /* border:1px solid #22382e; */
+    border-radius:2px;
+    /* max-width:33%; */
+    padding:0px;
+    /* text-align: center;*/
+} 
+
+@media screen and (min-width:768px) {
+    .step{
+       max-width:30%;
+    }
+}
+
+
+/* .step h4 {
+    color:#22382e; 
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+} */
+
+.step p {
+    color: black;
+    font-size: 0.75em;
+    margin-top: 10px;
+    max-width:80%;
+    /* line-height:1.43; */
+
+}
+
+
+/**login**/
+
+#login{
+    background-color:#22382e;
+    height: 100vh;
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+
+}
+
+/* .outer{
+    
+} */
+
+ .forgot{
+    text-decoration: none;
+    color:#FABC2A
+}
+
+.create{
+    color:white;
+    border:1px solid #FABC2A;
+    border-radius:2px;
+}
+
+.badge-pill{
+    position: absolute;
+    top:0px;
+    right:30px;
+    font-size:9px;
+}
+.report{
+    background-color:white;
+}
+
+.upload-container {
+    border: 2px dashed #28a745;
+    padding: 40px;
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.upload {
+    font-size: 40px;
+    color: #6c757d;
+}
+
+.border{
+    border:1px solid white;
+    padding:30px;
+}
+
+.outline{
+    border-radius:0px 3px 3px 0px;
+    background-color:#fabc2a;
+}
+
+.task-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    height:100px;
+}
+.verified-badge {
+    background-color: #d6b8f2;
+    color: #6a1b9a;
+    font-weight: normal;
+    border-radius: 2px;
+}
+.reward-earned {
+    color: #28a745;
+    font-weight: normal;
+}
+.task-info {
+    font-size: 13px;
+}
+
+.start{
+    font-size:12px;
+    background-color: #bbb;
+    padding:5px 10px;
+    border:1px solid black;
+    color:black;
+    font-weight: 500;
+}
+
+.reward-card {
+    background-color: #f8f9fa;
+    border-left: 5px solid #22382e;
+    padding: 20px;
+    border-radius: 5px;
+}
+.points-value {
+    font-size:20px;
+    color: #28a745;
+    font-weight: bold;
+}
+.recent-transactions-card,
+.available-rewards-card {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+}
+.transaction-item {
+    font-size: 14px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.transaction-date {
+    font-size: 12px;
+    color: #6c757d;
+}
+.transaction-points {
+    color: #28a745;
+    font-weight: bold;
+}
+.redeem-points-btn {
+    background-color: #22382e;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-form {
+    width:50%;
+   
+  }
+
+.subsection{
+    background-image: url('images/solid-waste-management-500x500.webp');
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:300px;
+    background-attachment: fixed;
+}
+
+
+.subsection-overlay{
+    height: inherit;
+    background-color: rgba(0, 0, 0,0.9);
+}
+
+.subscribe{
+    font-family:"Abril Fatface",sans-serif;
+    font-size: 25px;
+}
+
+.noround{
+    margin-top:10px;
+    border-radius:0px;
+    box-shadow: none;
+}
+
+.noroundregister{
+    margin-bottom:6px;
+    border-radius:0px;
+    box-shadow: none;
+}
+
+
+.mini{
+    font-family:"Open Sans";
+    letter-spacing:0px;
+    font-size:0.7em;
+}
+
+.partners{
+    font-family:"Abril Fatface",sans-serif;
+    font-size: 25px;
+}
+
+.noround{
+    border-radius:0px;
+    margin-bottom:10px;
+}
+
+.contactus input[placeholder],.contactus textarea[placeholder]{
+    font-family:'Open Sans',sans-serif;
+}
+
+.contactus button{
+   
+    border-radius:2px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 0.9em;
+}
+
+.footer{
+    background-color: #eee; 
+}
+
+.footerlogin{
+    background-color:white; 
+}
+
+.footer h4{
+    font-family: 'Abril Fatface',sans-serif;
+}
+
+.footer p{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 0.7em;
+    
+}
+
+
+.footernav-btn{
+
+    background-color: #FABC2A;
+    border-radius:2px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 0.8em;
+    
+
+}
+
+.footernav-btn2{
+
+    border: 1px solid #FABC2A;
+    border-radius:2px ;
+    font-family: "Open Sans",sans-serif;
+    font-size: 0.8em;
+    
+
+}
+
+.footer a{
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 0.7em;
+    
+}
+
+.footer a:hover{
+    border-bottom: 1px solid #FABC2A;
+    transition:5400s ease in;
+    
+}
+
+.icons i{
+    font-size:18px;
+}
+
+.footer hr,.partners hr{
+    width: 100%;
+    color: black;
+    
+}
+
+.loginform,.registerform{
+    background-color: #eee;
+
+}
+.loginform input, .loginform select,.registerform input, .registerform select{
+
+    background-color: transparent;
+    border:1px solid #afafaf;
+    color: black;
+    font-size: 14px;
+    
+}
+
+.loginform input:not(:focus),.registerform input:not(:focus){
+    color: black;
+   
+}
+
+.loginform input[placeholder],.registerform input[placeholder],.registerform option[value]{
+    color: black;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.loginform input[placeholder]:focus,.registerform input[placeholder]:focus{
+    color: black;
+}
+
+.loginform input:focus,.loginform select:focus,.registerform input:focus,.registerform select:focus{
+    box-shadow: none;
+    background-color: transparent;
+    border:1px solid black;
+
+}
+.input-container{
+    max-width: 500px;
+    margin:0 auto;
+}
+
+.register-input-container{
+    max-width: 550px;
+    margin:0 auto;
+}
+
+.registerform p{
+    font-family: "Abril Fatface",sans-serif;
+    font-size:17px;
+}
+
+.registerform label{
+    font-family: Oswald,sans-serif;
+    font-size:15px;
+    
+}
+
+.last p{
+    font-family: "Abril Fatface",sans-serif;
+    font-size:15px;
+}
+
+.registerbtn{
+background-color:#FABC2A;
+
+}
+
+.shiftradio label{
+    margin-left:0px;
+    font-family: Arial, sans-serif;
+}
+
+.collectorform{
+   display: none;
+}
